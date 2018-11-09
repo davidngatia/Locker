@@ -13,7 +13,7 @@ class TestCredential(unittest.TestCase):
         """
         Set up method to run before each test casesself.
         """
-        self.new_credential = Credential("Twitter","machariangatia","4321")
+        self.new_credential = Credential("Twitter","Davidngatia","4321")
 
     def tearDown(self):
         """
@@ -27,7 +27,7 @@ class TestCredential(unittest.TestCase):
         test_init test case to test if the object is initialized properly
         """
         self.assertEqual(self.new_credential.account_type,"Twitter")
-        self.assertEqual(self.new_credential.user_name,"machariangatia")
+        self.assertEqual(self.new_credential.user_name,"Davidngatia")
         self.assertEqual(self.new_credential.password,"4321")
 
     def test_generate_password(self):
@@ -49,7 +49,7 @@ class TestCredential(unittest.TestCase):
         test_save_multiple_credentials to check if it can save multiple credentials objects to our credential_list
         """
         self.new_credential.save_credential()
-        test_credential=Credential("Facebook","machariangatia","09876")
+        test_credential=Credential("Facebook","Davidngatia","09876")
         test_credential.save_credential()
         self.assertEqual(len(Credential.credential_list),2)
 
