@@ -7,7 +7,7 @@ Python 3.6 Application
 This application is aimed to help a user store passwords of different accounts in one password protected account.
 
 ## Project setup instructions
-You can install this app by cloning the repository from this link https://github.com/davidngatia/Password-locker.git
+You can install this app by cloning the repository from this link https://github.com/davidngatia/Locker.git
 
 ## Known Bugs
 There are no known bugs so far,everything is working.
