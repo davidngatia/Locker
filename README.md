@@ -32,7 +32,7 @@ This project was generated with Python3.6
 
 
 ## Support and contact details
- If any issues,questions,ideas and concerns are encountered,feel free to contact machngatia@gmail.com
+ If any issues,questions,ideas and concerns are encountered,feel free to contact machngatia@gmail.com or +254718546247
 
 ## License
 This project is licensed under the MIT License
